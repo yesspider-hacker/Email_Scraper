@@ -59,7 +59,7 @@ count = 0
 try:
 	while len(urls):
 		count += 1
-		if count == 10:
+		if count == 100:
 
 			break
 		url = urls.popleft()
